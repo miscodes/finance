@@ -82,8 +82,8 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
-					<url>http://192.168.0.159:32783/manager/text</url>
-					<server>TomcatServer</server>
+					<url>http://192.168.0.159:32778/manager/text</url>
+					<!-- <server>TomcatServer</server> -->
 					<path>/${project.artifactId}-${project.version}</path>
 					<!-- <path>/${project.build.finalName}</path> -->
 					<username>lobonet</username>
