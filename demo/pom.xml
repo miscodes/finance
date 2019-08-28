@@ -84,8 +84,8 @@
 				<configuration>
 					<url>http://192.168.0.159:32774/manager/text</url>
 					<server>TomcatServer</server>
-					<path>/${project.artifactId}-${project.version}</path>
-					<!-- <path>/${project.build.finalName}</path> -->
+					<!-- <path>/${project.artifactId}-${project.version}</path> -->
+					<path>/${project.build.finalName}</path>
 					<username>lobonet</username>
 					<password>password</password>
 				</configuration>
