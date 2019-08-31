@@ -424,3 +424,77 @@
 2019-08-30 21:11:21,793 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2019-08-30 21:11:21,796 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-08-30 21:11:21,797 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git_hub\demo\src\test\resources
+2019-08-31 11:54:49,563 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-31 11:54:49,574 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-08-31 11:54:49,592 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-08-31 11:54:49,597 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-31 11:54:49,597 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git_hub\demo\src\test\resources
+2019-08-31 11:55:02,769 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-31 11:55:02,775 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-08-31 11:55:02,778 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-08-31 11:55:02,782 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-31 11:55:02,782 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git_hub\demo\src\test\resources
+2019-08-31 11:55:25,993 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-31 11:55:25,994 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-08-31 11:55:25,995 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-08-31 11:55:25,997 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-31 11:55:25,998 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git_hub\demo\src\test\resources
+2019-08-31 11:55:54,888 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-31 11:55:54,889 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-08-31 11:55:54,889 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-08-31 11:55:54,910 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-31 11:55:54,910 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git_hub\demo\src\test\resources
+2019-08-31 11:56:52,796 [Worker-0] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for demo
+2019-08-31 11:56:53,067 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-31 11:56:53,068 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-08-31 11:56:53,069 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-08-31 11:56:53,078 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-31 11:56:53,079 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git_hub\demo\src\test\resources
+2019-08-31 11:56:53,079 [Worker-19] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of demo
+2019-08-31 11:56:53,080 [Worker-19] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for demo
+2019-08-31 11:56:53,215 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-31 11:57:48,289 [Worker-29] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-08-31 11:57:51,114 [Worker-29] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.boot:web-thymeleaf:1.0 @ C:\git_hub\demo\pom.xml.
+2019-08-31 11:57:53,172 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2019-08-31 11:57:53,173 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2019-08-31 11:57:53,173 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2019-08-31 11:57:53,174 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2019-08-31 11:57:55,563 [Worker-29] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for demo
+2019-08-31 11:57:55,676 [Worker-29] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2019-08-31 11:57:57,127 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-31 11:57:57,128 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-08-31 11:57:57,147 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-08-31 11:57:57,156 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-31 11:57:57,156 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git_hub\demo\src\test\resources
+2019-08-31 11:57:57,157 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of demo
+2019-08-31 11:57:57,157 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for demo
+2019-08-31 11:57:57,162 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-31 11:59:24,933 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-31 11:59:24,935 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-08-31 11:59:24,935 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-08-31 11:59:24,938 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-31 11:59:24,938 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git_hub\demo\src\test\resources
+2019-08-31 12:01:34,155 [Worker-31] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for demo
+2019-08-31 12:02:29,001 [Worker-31] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-08-31 12:02:30,178 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.boot:web-thymeleaf:1.0 @ C:\git_hub\demo\pom.xml.
+2019-08-31 12:02:35,575 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2019-08-31 12:02:35,576 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2019-08-31 12:02:35,577 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2019-08-31 12:02:35,577 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2019-08-31 12:02:36,865 [Worker-31] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for demo
+2019-08-31 12:02:36,886 [Worker-31] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2019-08-31 12:10:01,006 [Worker-37] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.boot:web-thymeleaf:1.0 @ C:\git_hub\demo\pom.xml.
+2019-08-31 12:10:03,698 [Worker-37] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for demo
+2019-08-31 12:10:04,902 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-31 12:10:04,902 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-08-31 12:10:04,916 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-08-31 12:10:04,918 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-31 12:10:04,918 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\git_hub\demo\src\test\resources
+2019-08-31 12:10:04,918 [Worker-19] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of demo
+2019-08-31 12:10:04,918 [Worker-19] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for demo
+2019-08-31 12:10:04,922 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-31 12:10:34,917 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\git_hub\demo
+2019-08-31 12:10:34,918 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2019-08-31 12:10:44,850 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2019-08-31 12:10:44,884 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\git_hub\demo
+2019-08-31 12:10:44,884 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package -DskipTests
