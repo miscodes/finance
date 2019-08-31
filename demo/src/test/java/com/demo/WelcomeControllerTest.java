@@ -1,6 +1,5 @@
-package com.mkyong;
+package com.demo;
 
-import com.mkyong.controller.WelcomeController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +9,8 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.web.servlet.ModelAndView;
+
+import com.demo.controller.WelcomeController;
 
 import java.util.Arrays;
 import java.util.List;
@@ -34,9 +35,9 @@ public class WelcomeControllerTest {
         ResultActions resultActions = mockMvc.perform(get("/"))
                 .andExpect(status().isOk())
                 .andExpect(view().name("welcome"))
-                .andExpect(model().attribute("message", equalTo("Mkyong")))
+                .andExpect(model().attribute("message", equalTo("Lobo")))
                 .andExpect(model().attribute("tasks", is(expectedList)))
-                .andExpect(content().string(containsString("Hello, Mkyong")));
+                .andExpect(content().string(containsString("Hello, Lobo")));
 
         MvcResult mvcResult = resultActions.andReturn();
         ModelAndView mv = mvcResult.getModelAndView();
