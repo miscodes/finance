@@ -3,6 +3,7 @@ pipeline {
     tools {
         maven 'Maven 3.5.4'
         jdk 'jdk8'
+        docker 'docker'
     }
     stages {
         stage ('Initialize') {
@@ -21,7 +22,7 @@ pipeline {
         
         stage ('Deploy') {
             steps {
-                sh 'scp /var/jenkins_home/workspace/Deploy-war/demo/target/web-thymeleaf-1.0.war sysone@192.168.1.100:~/Downloads/apache-tomcat-9.0.39/webapps/'
+                sh 'docker cp /var/jenkins_home/workspace/Deploy-war/demo/target/web-thymeleaf-1.0.war tomcat-server:/usr/local/tomcat/webapps'
             }
         }
 	}
