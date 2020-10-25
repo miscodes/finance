@@ -18,5 +18,11 @@ pipeline {
                 sh 'mvn -f demo/pom.xml -Dmaven.test.skip=true clean package'
             }
         }
-    }
+        
+        stage ('Deploy') {
+            steps {
+                sh 'scp /var/jenkins_home/workspace/Deploy-war/demo/target/web-thymeleaf-1.0.war root@bbbd06a8cc37:/usr/local/tomcat/webapps/'
+            }
+        }
+	}
 }
