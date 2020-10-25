@@ -1,5 +1,11 @@
 pipeline {
-    agent any
+    agent {
+                docker {
+                  label 'dockerserver'  // both label and image
+                  image 'maven:3-alpine'
+                }
+            }
+    
     tools {
         maven 'Maven 3.5.4'
         jdk 'jdk8'
