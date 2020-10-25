@@ -3,19 +3,12 @@ pipeline {
     tools {
         maven 'Maven 3.5.4'
         jdk 'jdk8'
+        docker 'myDocker'
     }
     
-    environment {
-        dockerHome = ''
-        path = "${PATH}"
-    }
+   
     stages {
-        stage('Initialize Docker'){
-        	steps {
-                dockerHome = tool 'myDocker'
-        		environment.path = "${dockerHome}/bin:${environment.path}"
-            }
-        }
+        
     	stage ('Initialize') {
             steps {
                 sh '''
