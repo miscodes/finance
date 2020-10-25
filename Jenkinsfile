@@ -4,11 +4,16 @@ pipeline {
         maven 'Maven 3.5.4'
         jdk 'jdk8'
     }
+    
+    environment {
+        dockerHome = ''
+        path = "${PATH}"
+    }
     stages {
         stage('Initialize Docker'){
         	steps {
-                def dockerHome = tool 'myDocker'
-        		env.PATH = "${dockerHome}/bin:${env.PATH}"
+                dockerHome = tool 'myDocker'
+        		environment.path = "${dockerHome}/bin:${environment.path}"
             }
         }
     	stage ('Initialize') {
