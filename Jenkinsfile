@@ -21,7 +21,7 @@ pipeline {
         
         stage ('Deploy') {
             steps {
-                sh 'scp /var/jenkins_home/workspace/Deploy-war/demo/target/web-thymeleaf-1.0.war sysone@sysone-ThinkPad-E4903:~/Downloads/apache-tomcat-9.0.39/webapps/'
+                sh 'scp /var/jenkins_home/workspace/Deploy-war/demo/target/web-thymeleaf-1.0.war sysone@192.168.1.100:~/Downloads/apache-tomcat-9.0.39/webapps/'
             }
         }
 	}
