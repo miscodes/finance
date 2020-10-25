@@ -1,17 +1,16 @@
 pipeline {
-    agent {
-    	docker {
-	      image 'node:lts-buster-slim'
-	      args '-p 8989:8989'
-	    }
-  	}
-    
+    agent any
     tools {
         maven 'Maven 3.5.4'
         jdk 'jdk8'
     }
     stages {
-        stage ('Initialize') {
+        stage('Initialize Docker'){
+        	def dockerHome = tool 'myDocker'
+        	env.PATH = "${dockerHome}/bin:${env.PATH}"
+   		 }
+    
+		stage ('Initialize') {
             steps {
                 sh '''
                     echo "PATH = ${PATH}"
