@@ -1,0 +1,1 @@
+sshpass -p tomcat scp /var/jenkins_home/workspace/myPileline/demo/target/*.war root@47246e25e88d:/usr/local/tomcat/webapps
