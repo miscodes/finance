@@ -22,6 +22,12 @@ pipeline {
             }
         }
         
+        stage ('Copy ssh key') {
+            steps {
+                sh 'ssh-copy-id root@47246e25e88d'
+            }
+        }
+                
         stage ('Deploy') {
             steps {
                 sh 'sshpass -p tomcat scp /var/jenkins_home/workspace/myPileline/demo/target/*.war root@47246e25e88d:/usr/local/tomcat/webapps'
